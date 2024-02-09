@@ -57,10 +57,14 @@ def api():
 	ua3 = f"Opera/9.80 (iPhone; Opera Mini/16.0.{str(rr(35000, 39000))}/{str(rr(190, 199))}.{str(rr(270, 290))}; U; {bahasa}) Presto/2.{str(rr(4, 20))}.{str(rr(420, 490))} Version/12.16"
 	ua4 = f"Opera/9.80 (Android; Opera Mini/11.0.{str(rr(35000, 39000))}/{str(rr(190, 199))}.{str(rr(270, 290))}; U; {bahasa}) Presto/2.{str(rr(4, 20))}.{str(rr(420, 490))} Version/12.16"
 	ua5 = f"Opera/9.80 (Windows Mobile; Opera Mini/5.1.{str(rr(35000, 39000))}/{str(rr(190, 199))}.{str(rr(270, 290))}; U; {bahasa}) Presto/2.{str(rr(4, 20))}.{str(rr(420, 490))} Version/12.16"
+	ua6 = f"Mozilla/5.0 (Linux; Android 14; SM-G990B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.15 Mobile Safari/537.36"
+	ua7 = f"Mozilla/5.0 (Linux; Android 14; SM-A236B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.15 Mobile Safari/537.36"
+	ua8 = f"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
+	ua9 = f"Mozilla/5.0 (Linux; Android 9; Mi Note 10 Build/PKQ1.190302.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/335.0.0.28.118;]"
 	mmk = f"Mozilla/5.0 (Linux; U; Viera; {versi}) AppleWebKit/537.36 (KHTML, like Gecko) Viera/4.0.0 Chrome/{str(rr(30,150))}.0.{str(rr(2000,6000))}.{str(rr(70,200))} Safari/537.36 SmartTV"
 	mm1 = f"Mozilla/5.0 (Linux; U) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(30,150))}.0.{str(rr(2000,6000))}.{str(rr(25,150))} Mobile Safari/537.36 (SmartTV/8.5) (NetCast)"
 	mm2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,14))}; SAMSUNG SM-E203Y) {str(rr(111111,210000))}.0{str(rr(10,32))}) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.0{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36 OPX/1.0"
-	return random.choice([ua0,ua1,ua2,ua3,ua4,ua5,mmk,mm1,mm2])	
+	return random.choice([ua0,ua1,ua2,ua3,ua4,ua5,ua6,ua7,ua8,ua9,mmk,mm1,mm2]) 	
 #__________________ LOGO KONTOL __________________#
 logo=(f"""
 \x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m=====================================
