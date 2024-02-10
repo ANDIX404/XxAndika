@@ -1,2 +1,2 @@
 # XxAndika
-Menimal Follow🤭
+Udah Gua Hapus...
