@@ -228,8 +228,6 @@ def passwrd():
 					pwv.append(frs+'2008')
 					pwv.append(frs+'2009')
 					pwv.append(frs+'2010')
-					pwv.append(kamunanya)
-					pwv.append(sayangku123)
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
